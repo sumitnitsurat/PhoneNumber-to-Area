@@ -1,0 +1,11 @@
+{
+  "name": "phone-area-timezone",
+  "version": "1.0.0",
+  "description": "A npm module to get the area details of a phone number\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D and \u001b[2~timezone details of a phone number",
+  "main": "areacodes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
