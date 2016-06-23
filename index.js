@@ -3,11 +3,11 @@
 var __ = require( 'doublescore' );
 var data = require( './json/data.json' );
 
-var AreaCodes = function() {
+var Phonetz = function() {
 
 };
 
-AreaCodes.prototype.get = function( phoneNumber ) {
+Phonetz.prototype.get = function( phoneNumber ) {
 
 	phoneNumber = phoneNumber.replace( /^\+?[10]/, '' ).replace( /[^0-9]/g, '' ).match( /^([0-9]{3})/ );
 
@@ -26,4 +26,4 @@ AreaCodes.prototype.get = function( phoneNumber ) {
 };
 
 
-module.exports = AreaCodes;
+module.exports = Phonetz;
